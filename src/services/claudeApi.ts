@@ -1,8 +1,8 @@
 /**
  * Claude API Utilities
  *
- * Base error classes and utilities for Claude API interactions.
- * The main blocked area detection API is in blockedAreaApi.ts.
+ * Base error classes and utilities for API interactions.
+ * These are shared across Claude and other AI API services.
  */
 
 // =============================================================================
@@ -17,7 +17,7 @@ export const CLAUDE_SONNET_MODEL = 'claude-sonnet-4-20250514'
 // =============================================================================
 
 /**
- * API error types
+ * API error types shared across all AI API services
  */
 export type ApiErrorType =
   | 'network'
@@ -27,16 +27,35 @@ export type ApiErrorType =
   | 'unknown'
 
 /**
- * API error class for Claude API interactions
+ * Unified API error class for all AI API interactions
+ *
+ * Used by Claude, Gemini, and other AI services for consistent error handling.
  */
-export class ClaudeApiError extends Error {
+export class ApiError extends Error {
   constructor(
     message: string,
     public readonly type: ApiErrorType,
     public readonly statusCode?: number,
-    public readonly retryable: boolean = false
+    public readonly retryable: boolean = false,
+    public readonly provider: 'anthropic' | 'gemini' | 'openai' | 'unknown' = 'unknown'
   ) {
     super(message)
+    this.name = 'ApiError'
+  }
+}
+
+/**
+ * Claude-specific API error (alias for backward compatibility)
+ * @deprecated Use ApiError instead
+ */
+export class ClaudeApiError extends ApiError {
+  constructor(
+    message: string,
+    type: ApiErrorType,
+    statusCode?: number,
+    retryable: boolean = false
+  ) {
+    super(message, type, statusCode, retryable, 'anthropic')
     this.name = 'ClaudeApiError'
   }
 }

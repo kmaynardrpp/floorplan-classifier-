@@ -1,147 +1,23 @@
 import type { CoarseZone, CoarseZoneType, BoundingBox, Point } from '@/types/zone'
 import { COARSE_ZONE_TYPES } from '@/types/zone'
 import { calculateBoundingBox } from '@/services/coordinateTransform'
-import { pointInPolygon, getCentroid } from '@/utils/geometry'
+import { constrainZoneToCoverage } from '@/utils/geometry'
 import { useSettingsStore } from '@/store/useSettingsStore'
+import { ApiError, type ApiErrorType, getErrorType } from './claudeApi'
 
 // =============================================================================
-// Zone-Centric Containment Helpers
+// Constants
 // =============================================================================
-
-/**
- * Move a point toward a target by a fraction (0-1)
- */
-function movePointToward(point: Point, target: Point, fraction: number): Point {
-  return {
-    x: point.x + (target.x - point.x) * fraction,
-    y: point.y + (target.y - point.y) * fraction,
-  }
-}
-
-/**
- * Constrain a zone's vertices to be inside a coverage polygon
- * Uses the zone's OWN interior vertices as the anchor point (not coverage centroid)
- *
- * This is the correct algorithm that maintains zone shape integrity:
- * 1. Find which vertices of the zone are already inside coverage
- * 2. Calculate centroid of those inside vertices (anchor point)
- * 3. Move outside vertices toward anchor using binary search
- *
- * @param zoneVertices - The zone's polygon vertices
- * @param coveragePolygon - The coverage boundary polygon
- * @param zoneName - Zone name for logging
- * @returns Adjusted vertices or null if zone is entirely outside coverage
- */
-function constrainZoneVerticesToCoverage(
-  zoneVertices: Point[],
-  coveragePolygon: Point[],
-  zoneName: string
-): Point[] | null {
-  if (zoneVertices.length < 3 || coveragePolygon.length < 3) {
-    return null
-  }
-
-  // Find which vertices are inside coverage
-  const insideFlags = zoneVertices.map(v => pointInPolygon(v, coveragePolygon))
-  const insideCount = insideFlags.filter(Boolean).length
-
-  // If all vertices are already inside, return as-is
-  if (insideCount === zoneVertices.length) {
-    return zoneVertices
-  }
-
-  // If NO vertices are inside, the zone is entirely outside - remove it
-  if (insideCount === 0) {
-    console.warn(`[Gemini] Zone "${zoneName}" entirely outside coverage (0/${zoneVertices.length} inside) - removing`)
-    return null
-  }
-
-  console.log(`[Gemini] Zone "${zoneName}": ${insideCount}/${zoneVertices.length} vertices inside, adjusting others`)
-
-  // Calculate centroid of vertices that ARE inside coverage (this is the anchor)
-  const insideVertices = zoneVertices.filter((_, i) => insideFlags[i])
-  const anchorPoint = getCentroid(insideVertices)
-
-  console.log(`[Gemini] Zone "${zoneName}" anchor (centroid of inside vertices): (${Math.round(anchorPoint.x)}, ${Math.round(anchorPoint.y)})`)
-
-  // Move outside vertices toward the anchor point until they're inside
-  const adjustedVertices: Point[] = zoneVertices.map((vertex, i) => {
-    if (insideFlags[i]) {
-      return vertex // Already inside, keep it
-    }
-
-    // Binary search to find the point along the line from vertex to anchor that's just inside coverage
-    let lo = 0
-    let hi = 1
-    let bestPoint = anchorPoint // Fallback to anchor if all else fails
-
-    for (let iter = 0; iter < 20; iter++) {
-      const mid = (lo + hi) / 2
-      const testPoint = movePointToward(vertex, anchorPoint, mid)
-
-      if (pointInPolygon(testPoint, coveragePolygon)) {
-        bestPoint = testPoint
-        hi = mid // Try to find a point closer to the original
-      } else {
-        lo = mid // Need to move further toward anchor
-      }
-    }
-
-    // Move 10% more toward anchor to ensure we're safely INSIDE (not on edge)
-    let safePoint = movePointToward(bestPoint, anchorPoint, 0.10)
-
-    // VERIFICATION: Ensure the safe point is actually inside coverage
-    // If not, keep moving toward anchor until it is
-    let verifyAttempts = 0
-    while (!pointInPolygon(safePoint, coveragePolygon) && verifyAttempts < 10) {
-      verifyAttempts++
-      // Move 20% closer to anchor each attempt
-      safePoint = movePointToward(safePoint, anchorPoint, 0.20)
-    }
-
-    // Final fallback: if still outside, just use the anchor point (guaranteed inside)
-    if (!pointInPolygon(safePoint, coveragePolygon)) {
-      console.warn(
-        `[Gemini] Zone "${zoneName}" vertex ${i}: Could not find safe point, using anchor`
-      )
-      safePoint = anchorPoint
-    }
-
-    const distance = Math.sqrt(
-      Math.pow(safePoint.x - vertex.x, 2) + Math.pow(safePoint.y - vertex.y, 2)
-    )
-
-    console.log(
-      `[Gemini] Zone "${zoneName}" vertex ${i}: (${Math.round(vertex.x)}, ${Math.round(vertex.y)}) -> ` +
-      `(${Math.round(safePoint.x)}, ${Math.round(safePoint.y)}) [moved ${Math.round(distance)}px toward anchor]` +
-      (verifyAttempts > 0 ? ` [${verifyAttempts} extra moves for safety]` : '')
-    )
-
-    return {
-      x: Math.round(safePoint.x),
-      y: Math.round(safePoint.y),
-    }
-  })
-
-  // Final verification: ensure ALL adjusted vertices are inside coverage
-  const allInside = adjustedVertices.every(v => pointInPolygon(v, coveragePolygon))
-  if (!allInside) {
-    console.warn(`[Gemini] Zone "${zoneName}": Some vertices still outside after adjustment - this shouldn't happen`)
-  } else {
-    console.log(`[Gemini] Zone "${zoneName}": ✓ All ${adjustedVertices.length} vertices verified inside coverage`)
-  }
-
-  return adjustedVertices
-}
 
 // Gemini model options
-// Standard: gemini-2.5-pro - stable, good quality
-// Latest: gemini-3-pro-preview - newest preview model
 const GEMINI_MODEL_STANDARD = 'gemini-2.5-pro'
 const GEMINI_MODEL_LATEST = 'gemini-3-pro-preview'
-// Use Gemini 3 Flash Preview for 2D coverage blocked area detection
 const GEMINI_COVERAGE_MODEL = 'gemini-3-flash-preview'
 const GEMINI_API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models'
+
+// Gemini 2.5 Pro uses tokens for reasoning - need high limit
+const MAX_TOKENS = 65536
+const MAX_INLINE_SIZE_BYTES = 20 * 1024 * 1024 // 20MB for inline data
 
 /**
  * Get the Gemini model to use based on settings
@@ -149,32 +25,24 @@ const GEMINI_API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models
 export function getGeminiModel(useLatest: boolean): string {
   return useLatest ? GEMINI_MODEL_LATEST : GEMINI_MODEL_STANDARD
 }
-// Gemini 2.5 Pro is a "thinking" model that uses tokens for reasoning
-// Need high token limit to allow for thinking + actual JSON output
-const MAX_TOKENS = 65536
-const MAX_INLINE_SIZE_BYTES = 20 * 1024 * 1024 // 20MB for inline data
+
+// =============================================================================
+// Error Types (using shared ApiError)
+// =============================================================================
+
+export type { ApiErrorType }
 
 /**
- * API error types
+ * Gemini-specific API error (extends shared ApiError)
  */
-export type ApiErrorType =
-  | 'network'
-  | 'auth'
-  | 'rate_limit'
-  | 'invalid_response'
-  | 'unknown'
-
-/**
- * API error
- */
-export class GeminiApiError extends Error {
+export class GeminiApiError extends ApiError {
   constructor(
     message: string,
-    public readonly type: ApiErrorType,
-    public readonly statusCode?: number,
-    public readonly retryable: boolean = false
+    type: ApiErrorType,
+    statusCode?: number,
+    retryable: boolean = false
   ) {
-    super(message)
+    super(message, type, statusCode, retryable, 'gemini')
     this.name = 'GeminiApiError'
   }
 }
@@ -339,20 +207,7 @@ interface RawApiResponse {
   zones: RawZone[]
 }
 
-/**
- * Get error type from HTTP status
- */
-function getErrorType(status: number): ApiErrorType {
-  switch (status) {
-    case 401:
-    case 403:
-      return 'auth'
-    case 429:
-      return 'rate_limit'
-    default:
-      return 'unknown'
-  }
-}
+// Note: getErrorType is imported from claudeApi.ts
 
 /**
  * Parse coarse zones from response text
@@ -1001,21 +856,21 @@ export function parseBlockedAreasFromResponse(
 
     if (coveragePolygon && coveragePolygon.length >= 3) {
       // Use zone-centric containment: move outside vertices toward the zone's own interior
-      const constrainedVertices = constrainZoneVerticesToCoverage(
-        rawVertices,
-        coveragePolygon,
-        name
-      )
+      const constrainResult = constrainZoneToCoverage(rawVertices, coveragePolygon)
 
-      if (constrainedVertices === null) {
+      if (constrainResult.removedEntirely || constrainResult.vertices === null) {
         // Zone was entirely outside coverage - skip it
         console.warn(
-          `[Gemini] ❌ Skipping "${name}": ALL ${raw.vertices.length} vertices were outside the coverage polygon`
+          `[Gemini] Skipping "${name}": ALL ${raw.vertices.length} vertices were outside the coverage polygon`
         )
         continue
       }
 
-      finalVertices = constrainedVertices
+      if (constrainResult.adjustedCount > 0) {
+        console.log(`[Gemini] Adjusted ${constrainResult.adjustedCount} vertices for "${name}"`)
+      }
+
+      finalVertices = constrainResult.vertices
     } else {
       // Fallback: Clamp to rectangular image bounds if provided (no coverage polygon)
       finalVertices = rawVertices.map((v, vIdx) => {

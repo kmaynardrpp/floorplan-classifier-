@@ -8,10 +8,14 @@
  * overlaid on the image and allows the AI to refine or add zones.
  */
 
-import type { Point, BoundingBox } from '@/types/zone'
+import type { Point } from '@/types/zone'
 import type { PolygonCropResult } from './imageCropper'
 import { cropImageWithPadding } from './imageCropper'
-import { pointInPolygon, getCentroid } from '@/utils/geometry'
+import {
+  getCentroid,
+  constrainZoneToCoverage,
+  getPolygonBounds,
+} from '@/utils/geometry'
 
 const ANTHROPIC_API_URL = 'https://api.anthropic.com/v1/messages'
 // Use Sonnet for faster, cheaper blocked area analysis
@@ -22,101 +26,7 @@ const MAX_TOKENS = 4096
 // Programmatic Containment Functions
 // =============================================================================
 
-/**
- * Move a point toward a target by a fraction (0-1)
- */
-function movePointToward(point: Point, target: Point, fraction: number): Point {
-  return {
-    x: point.x + (target.x - point.x) * fraction,
-    y: point.y + (target.y - point.y) * fraction,
-  }
-}
-
-/**
- * Constrain a zone's vertices to be inside a coverage polygon
- * Uses iterative shrinking toward centroid for vertices outside coverage
- *
- * @param zoneVertices - The zone's polygon vertices
- * @param coveragePolygon - The coverage boundary polygon
- * @returns Adjusted vertices that are all inside coverage, or null if zone is entirely outside
- */
-export function constrainZoneToCoverage(
-  zoneVertices: Point[],
-  coveragePolygon: Point[]
-): Point[] | null {
-  if (zoneVertices.length < 3 || coveragePolygon.length < 3) {
-    return null
-  }
-
-  // Find which vertices are inside coverage
-  const insideFlags = zoneVertices.map(v => pointInPolygon(v, coveragePolygon))
-  const insideCount = insideFlags.filter(Boolean).length
-
-  // If all vertices are already inside, return as-is
-  if (insideCount === zoneVertices.length) {
-    console.log(`[containment] All ${zoneVertices.length} vertices already inside coverage`)
-    return zoneVertices
-  }
-
-  // If NO vertices are inside, the zone is entirely outside - remove it
-  if (insideCount === 0) {
-    console.log(`[containment] Zone entirely outside coverage (0/${zoneVertices.length} inside) - removing`)
-    return null
-  }
-
-  console.log(`[containment] ${insideCount}/${zoneVertices.length} vertices inside, adjusting others`)
-
-  // Calculate centroid of vertices that ARE inside coverage
-  const insideVertices = zoneVertices.filter((_, i) => insideFlags[i])
-  const anchorPoint = getCentroid(insideVertices)
-
-  console.log(`[containment] Anchor point (centroid of inside vertices): (${Math.round(anchorPoint.x)}, ${Math.round(anchorPoint.y)})`)
-
-  // Move outside vertices toward the anchor point until they're inside
-  const adjustedVertices: Point[] = zoneVertices.map((vertex, i) => {
-    if (insideFlags[i]) {
-      return vertex // Already inside, keep it
-    }
-
-    // Binary search to find the point along the line from vertex to anchor that's just inside coverage
-    let lo = 0
-    let hi = 1
-    let bestPoint = anchorPoint // Fallback to anchor if all else fails
-
-    for (let iter = 0; iter < 20; iter++) {
-      const mid = (lo + hi) / 2
-      const testPoint = movePointToward(vertex, anchorPoint, mid)
-
-      if (pointInPolygon(testPoint, coveragePolygon)) {
-        bestPoint = testPoint
-        hi = mid // Try to find a point closer to the original
-      } else {
-        lo = mid // Need to move further toward anchor
-      }
-    }
-
-    // Move slightly more toward anchor to ensure we're safely inside (not on edge)
-    const safePoint = movePointToward(bestPoint, anchorPoint, 0.05)
-
-    console.log(
-      `[containment] Vertex ${i}: (${Math.round(vertex.x)}, ${Math.round(vertex.y)}) -> ` +
-      `(${Math.round(safePoint.x)}, ${Math.round(safePoint.y)})`
-    )
-
-    return {
-      x: Math.round(safePoint.x),
-      y: Math.round(safePoint.y),
-    }
-  })
-
-  // Verify all vertices are now inside
-  const allInside = adjustedVertices.every(v => pointInPolygon(v, coveragePolygon))
-  if (!allInside) {
-    console.warn(`[containment] Warning: Not all vertices ended up inside coverage after adjustment`)
-  }
-
-  return adjustedVertices
-}
+// Note: movePointToward and constrainZoneToCoverage are now imported from @/utils/geometry
 
 /**
  * Apply programmatic containment to all zones
@@ -131,29 +41,22 @@ export function applyContainmentToZones(
   let adjusted = 0
 
   for (const zone of zones) {
-    const constrainedVertices = constrainZoneToCoverage(zone.vertices, coveragePolygon)
+    const constrainResult = constrainZoneToCoverage(zone.vertices, coveragePolygon)
 
-    if (constrainedVertices === null) {
-      // Zone was entirely outside coverage - remove it
+    if (constrainResult.removedEntirely || constrainResult.vertices === null) {
       console.log(`[containment] Removing zone "${zone.name}" - entirely outside coverage`)
       removed++
       continue
     }
 
-    // Check if vertices changed
-    const changed = constrainedVertices.some((v, i) => {
-      const orig = zone.vertices[i]
-      return !orig || Math.abs(v.x - orig.x) > 1 || Math.abs(v.y - orig.y) > 1
-    })
-
-    if (changed) {
+    if (constrainResult.adjustedCount > 0) {
       adjusted++
-      console.log(`[containment] Adjusted zone "${zone.name}"`)
+      console.log(`[containment] Adjusted zone "${zone.name}" (${constrainResult.adjustedCount} vertices)`)
     }
 
     result.push({
       ...zone,
-      vertices: constrainedVertices,
+      vertices: constrainResult.vertices,
     })
   }
 
@@ -200,27 +103,21 @@ export interface BlockedAreaAnalysisResponse {
   rawResponse: string
 }
 
-/**
- * API error types
- */
-export type ApiErrorType =
-  | 'network'
-  | 'auth'
-  | 'rate_limit'
-  | 'invalid_response'
-  | 'unknown'
+// Import shared error types and utilities from claudeApi
+import { ApiError, type ApiErrorType, getErrorType } from './claudeApi'
+export type { ApiErrorType }
 
 /**
- * Error class for blocked area API
+ * Error class for blocked area API (extends shared ApiError)
  */
-export class BlockedAreaApiError extends Error {
+export class BlockedAreaApiError extends ApiError {
   constructor(
     message: string,
-    public readonly type: ApiErrorType,
-    public readonly statusCode?: number,
-    public readonly retryable: boolean = false
+    type: ApiErrorType,
+    statusCode?: number,
+    retryable: boolean = false
   ) {
-    super(message)
+    super(message, type, statusCode, retryable, 'anthropic')
     this.name = 'BlockedAreaApiError'
   }
 }
@@ -416,20 +313,7 @@ export function parseBlockedAreasFromResponse(
 // API Functions
 // =============================================================================
 
-/**
- * Get error type from HTTP status code
- */
-function getErrorType(status: number): ApiErrorType {
-  switch (status) {
-    case 401:
-    case 403:
-      return 'auth'
-    case 429:
-      return 'rate_limit'
-    default:
-      return 'unknown'
-  }
-}
+// Note: getErrorType is imported from claudeApi.ts
 
 /**
  * Extract text content from Claude API response
@@ -714,7 +598,7 @@ export async function renderZonesOnImage(
     ctx.stroke()
 
     // Draw zone number label at centroid
-    const centroid = getPolygonCentroid(zone.vertices)
+    const centroid = getCentroid(zone.vertices)
     const label = `${i + 1}`
 
     ctx.fillStyle = '#FFFFFF'
@@ -744,24 +628,7 @@ function loadImageFromDataUrl(dataUrl: string): Promise<HTMLImageElement> {
   })
 }
 
-/**
- * Calculate polygon centroid for label placement
- */
-function getPolygonCentroid(vertices: Point[]): Point {
-  if (vertices.length === 0) return { x: 0, y: 0 }
-
-  let sumX = 0
-  let sumY = 0
-  for (const v of vertices) {
-    sumX += v.x
-    sumY += v.y
-  }
-
-  return {
-    x: sumX / vertices.length,
-    y: sumY / vertices.length,
-  }
-}
+// Note: Use getCentroid from @/utils/geometry instead of local getPolygonCentroid
 
 // =============================================================================
 // AI Verification/Adjustment
@@ -1535,29 +1402,7 @@ export interface WideBufferVerificationResult extends VerificationResult {
   cropDimensions: { width: number; height: number }
 }
 
-/**
- * Calculate bounding box for a polygon
- */
-function getPolygonBoundingBox(vertices: Point[]): BoundingBox {
-  if (vertices.length === 0) {
-    return { x: 0, y: 0, width: 0, height: 0 }
-  }
-
-  const xs = vertices.map(v => v.x)
-  const ys = vertices.map(v => v.y)
-
-  const minX = Math.min(...xs)
-  const minY = Math.min(...ys)
-  const maxX = Math.max(...xs)
-  const maxY = Math.max(...ys)
-
-  return {
-    x: minX,
-    y: minY,
-    width: maxX - minX,
-    height: maxY - minY,
-  }
-}
+// Note: Use getPolygonBounds from @/utils/geometry instead of local getPolygonBounds
 
 /**
  * Transform points from full image to local crop coordinates
@@ -1743,14 +1588,14 @@ export async function verifyAndAdjustBlockedAreasWithBuffer(
   console.log(`[blockedAreaApi] Initial zones: ${detectedZones.length}`)
 
   // Calculate bounding box - use coverage polygon if no zones
-  const coverageBbox = getPolygonBoundingBox(coveragePolygon)
+  const coverageBbox = getPolygonBounds(coveragePolygon)
   let baseBbox = coverageBbox
 
   if (hasInitialZones) {
     // Include all zone vertices in the bounding box calculation
     const allZoneVertices = detectedZones.flatMap(z => z.vertices)
     const combinedVertices = [...coveragePolygon, ...allZoneVertices]
-    const combinedBbox = getPolygonBoundingBox(combinedVertices)
+    const combinedBbox = getPolygonBounds(combinedVertices)
 
     baseBbox = {
       x: Math.min(coverageBbox.x, combinedBbox.x),

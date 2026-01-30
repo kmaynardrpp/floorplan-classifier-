@@ -694,3 +694,124 @@ export function polygonOverlapPercentage(
   if (insideA === 0) return 0
   return insideAandB / insideA
 }
+
+// =============================================================================
+// Zone Containment Functions
+// =============================================================================
+
+/**
+ * Move a point toward a target by a fraction (0-1)
+ *
+ * @param point Starting point
+ * @param target Target point to move toward
+ * @param fraction How far to move (0 = stay at point, 1 = move to target)
+ * @returns New point between point and target
+ */
+export function movePointToward(point: Point, target: Point, fraction: number): Point {
+  return {
+    x: point.x + (target.x - point.x) * fraction,
+    y: point.y + (target.y - point.y) * fraction,
+  }
+}
+
+/**
+ * Result from constraining a zone to a coverage polygon
+ */
+export interface ConstrainZoneResult {
+  /** Adjusted vertices (null if zone was entirely outside) */
+  vertices: Point[] | null
+  /** Number of vertices that were adjusted */
+  adjustedCount: number
+  /** Whether the zone was entirely outside coverage */
+  removedEntirely: boolean
+}
+
+/**
+ * Constrain a zone's vertices to be inside a coverage polygon.
+ * Uses the zone's own interior vertices as the anchor point.
+ *
+ * Algorithm:
+ * 1. Find which vertices are already inside coverage
+ * 2. Calculate centroid of inside vertices (anchor point)
+ * 3. Move outside vertices toward anchor using binary search
+ *
+ * @param zoneVertices The zone's polygon vertices
+ * @param coveragePolygon The coverage boundary polygon
+ * @returns Constrained result with adjusted vertices or null if entirely outside
+ */
+export function constrainZoneToCoverage(
+  zoneVertices: Point[],
+  coveragePolygon: Point[]
+): ConstrainZoneResult {
+  if (zoneVertices.length < 3 || coveragePolygon.length < 3) {
+    return { vertices: null, adjustedCount: 0, removedEntirely: true }
+  }
+
+  // Find which vertices are inside coverage
+  const insideFlags = zoneVertices.map(v => pointInPolygon(v, coveragePolygon))
+  const insideCount = insideFlags.filter(Boolean).length
+
+  // If all vertices are already inside, return as-is
+  if (insideCount === zoneVertices.length) {
+    return { vertices: zoneVertices, adjustedCount: 0, removedEntirely: false }
+  }
+
+  // If NO vertices are inside, the zone is entirely outside - remove it
+  if (insideCount === 0) {
+    return { vertices: null, adjustedCount: 0, removedEntirely: true }
+  }
+
+  // Calculate centroid of vertices that ARE inside coverage (this is the anchor)
+  const insideVertices = zoneVertices.filter((_, i) => insideFlags[i])
+  const anchorPoint = getCentroid(insideVertices)
+
+  let adjustedCount = 0
+
+  // Move outside vertices toward the anchor point until they're inside
+  const adjustedVertices: Point[] = zoneVertices.map((vertex, i) => {
+    if (insideFlags[i]) {
+      return vertex // Already inside, keep it
+    }
+
+    adjustedCount++
+
+    // Binary search to find the point along the line from vertex to anchor that's just inside coverage
+    let lo = 0
+    let hi = 1
+    let bestPoint = anchorPoint // Fallback to anchor if all else fails
+
+    for (let iter = 0; iter < 20; iter++) {
+      const mid = (lo + hi) / 2
+      const testPoint = movePointToward(vertex, anchorPoint, mid)
+
+      if (pointInPolygon(testPoint, coveragePolygon)) {
+        bestPoint = testPoint
+        hi = mid // Try to find a point closer to the original
+      } else {
+        lo = mid // Need to move further toward anchor
+      }
+    }
+
+    // Move 10% more toward anchor to ensure we're safely INSIDE (not on edge)
+    let safePoint = movePointToward(bestPoint, anchorPoint, 0.10)
+
+    // Verification: Ensure the safe point is actually inside coverage
+    let verifyAttempts = 0
+    while (!pointInPolygon(safePoint, coveragePolygon) && verifyAttempts < 10) {
+      verifyAttempts++
+      safePoint = movePointToward(safePoint, anchorPoint, 0.20)
+    }
+
+    // Final fallback: if still outside, use the anchor point (guaranteed inside)
+    if (!pointInPolygon(safePoint, coveragePolygon)) {
+      safePoint = anchorPoint
+    }
+
+    return {
+      x: Math.round(safePoint.x),
+      y: Math.round(safePoint.y),
+    }
+  })
+
+  return { vertices: adjustedVertices, adjustedCount, removedEntirely: false }
+}
