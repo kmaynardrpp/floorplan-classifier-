@@ -1,0 +1,7355 @@
+{
+  "zones": [
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 24099,
+      "created_at": "2025-09-16T19:21:19.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_17",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "oIB9tto0QFWG3r-cinzGcQ",
+      "updated_at": "2025-09-16T19:21:19.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 298590,
+            "y": 149509
+          },
+          {
+            "x": 298590,
+            "y": 162500
+          },
+          {
+            "x": 306179,
+            "y": 162500
+          },
+          {
+            "x": 306179,
+            "y": 149509
+          }
+        ]
+      },
+      "zone_id": 428,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 38530,
+      "created_at": "2024-05-30T17:01:01.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_07",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "XKdRX_osQoOJ6xcyoTv34A",
+      "updated_at": "2025-06-03T19:34:27.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 269367,
+            "y": 33638
+          },
+          {
+            "x": 269367,
+            "y": 142427
+          },
+          {
+            "x": 292155,
+            "y": 142427
+          },
+          {
+            "x": 292155,
+            "y": 33638
+          }
+        ]
+      },
+      "zone_id": 8,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 65440,
+      "created_at": "2025-06-04T14:37:07.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "oegcwN83RUuYolSzwm7fvA",
+      "updated_at": "2025-06-04T14:37:07.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 131000,
+            "y": 19500
+          },
+          {
+            "x": 131000,
+            "y": 100000
+          },
+          {
+            "x": 213161,
+            "y": 100000
+          },
+          {
+            "x": 213161,
+            "y": 19500
+          }
+        ]
+      },
+      "zone_id": 245,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 16957,
+      "created_at": "2025-06-04T20:26:47.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "UADsbU2tRMK5n8_kwjiFNQ",
+      "updated_at": "2025-06-04T20:26:47.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 253879,
+            "y": 146732
+          },
+          {
+            "x": 253879,
+            "y": 150956
+          },
+          {
+            "x": 271500,
+            "y": 150956
+          },
+          {
+            "x": 271500,
+            "y": 146732
+          }
+        ]
+      },
+      "zone_id": 351,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 32058,
+      "created_at": "2025-06-04T13:24:39.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "4QPIzG3YSdWaI_BLuxKCKA",
+      "updated_at": "2025-06-05T12:22:50.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 395689,
+            "y": 140000
+          },
+          {
+            "x": 410742,
+            "y": 140000
+          },
+          {
+            "x": 410742,
+            "y": 36000
+          },
+          {
+            "x": 395689,
+            "y": 36000
+          }
+        ]
+      },
+      "zone_id": 220,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 25942,
+      "created_at": "2025-06-03T14:55:09.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_25",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "HK2UY9JxRVmbd0_nLRCutw",
+      "updated_at": "2025-06-03T14:55:09.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 369000,
+            "y": 6458
+          },
+          {
+            "x": 369000,
+            "y": 10900
+          },
+          {
+            "x": 378314,
+            "y": 10900
+          },
+          {
+            "x": 378314,
+            "y": 6458
+          }
+        ]
+      },
+      "zone_id": 116,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 5648,
+      "created_at": "2025-06-03T14:57:24.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_26",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "szUuiwK3QJi4hXYDvMPvRQ",
+      "updated_at": "2025-06-03T14:57:24.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 392737,
+            "y": 6473
+          },
+          {
+            "x": 392737,
+            "y": 10950
+          },
+          {
+            "x": 403025,
+            "y": 10950
+          },
+          {
+            "x": 403025,
+            "y": 6473
+          }
+        ]
+      },
+      "zone_id": 118,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 2229,
+      "created_at": "2025-09-16T15:32:23.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_28",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "Uq3rv3HkQYudhdZvUpr6Rg",
+      "updated_at": "2025-09-16T15:32:23.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 515000,
+            "y": 152000
+          },
+          {
+            "x": 515000,
+            "y": 143000
+          },
+          {
+            "x": 505000,
+            "y": 143000
+          },
+          {
+            "x": 505000,
+            "y": 152000
+          }
+        ]
+      },
+      "zone_id": 411,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 35711,
+      "created_at": "2025-06-03T14:37:26.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:05.044Z",
+            "x": 149181,
+            "y": 87310,
+            "z": 2413
+          },
+          "uid": "WvmNkzf7Q_K406Cqv-yw0g"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:47.051Z",
+            "x": 160594,
+            "y": 26565,
+            "z": 2413
+          },
+          "uid": "dGLkQYrHQkSuTNAQv_nYiw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:48.024Z",
+            "x": 167233,
+            "y": 55094,
+            "z": 2413
+          },
+          "uid": "gBpr424fRRm_n2uqhVHTLA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:53.540Z",
+            "x": 148987,
+            "y": 66941,
+            "z": 2413
+          },
+          "uid": "94fAp7N-T6qHVgL7qBgPVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:35.045Z",
+            "x": 137332,
+            "y": 25728,
+            "z": 2413
+          },
+          "uid": "myPiHqYeQZWcchXbA3PckQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:08.575Z",
+            "x": 171354,
+            "y": 90892,
+            "z": 2413
+          },
+          "uid": "paLwKq3cT5OfjjSotDGUrA"
+        }
+      ],
+      "uid": "bDz67laIRzezRDR8IJKPTg",
+      "updated_at": "2025-06-05T12:29:14.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 130975,
+            "y": 25500
+          },
+          {
+            "x": 130975,
+            "y": 93588
+          },
+          {
+            "x": 202000,
+            "y": 93588
+          },
+          {
+            "x": 202000,
+            "y": 25500
+          }
+        ]
+      },
+      "zone_id": 102,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 24381,
+      "created_at": "2025-06-04T13:37:10.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:40.599Z",
+            "x": 337258,
+            "y": 101012,
+            "z": 2464
+          },
+          "uid": "XpVvBSH6Sv_i9itwgv20BQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:07.056Z",
+            "x": 386270,
+            "y": 101343,
+            "z": 2413
+          },
+          "uid": "m2hN4AIrQ6q5UqNn_nlsbg"
+        }
+      ],
+      "uid": "NfRmSGLTRJmxaIQYt0LFVQ",
+      "updated_at": "2025-06-05T12:23:53.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 292418,
+            "y": 33000
+          },
+          {
+            "x": 292418,
+            "y": 101418
+          },
+          {
+            "x": 395236,
+            "y": 101418
+          },
+          {
+            "x": 395236,
+            "y": 33000
+          }
+        ]
+      },
+      "zone_id": 228,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 57272,
+      "created_at": "2025-06-03T18:28:00.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:18.041Z",
+            "x": 23331,
+            "y": 111334,
+            "z": 2416
+          },
+          "uid": "E34BzRFNSTqy_EkUFI7uOw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:52.553Z",
+            "x": 10293,
+            "y": 169171,
+            "z": 2413
+          },
+          "uid": "K3FpeoWISF2cGKuFDufOEg"
+        }
+      ],
+      "uid": "TA5TaQWiSxa4oOWfJ0r4FQ",
+      "updated_at": "2025-06-03T18:28:00.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 6984,
+            "y": 111000
+          },
+          {
+            "x": 6984,
+            "y": 175000
+          },
+          {
+            "x": 43828,
+            "y": 175000
+          },
+          {
+            "x": 43828,
+            "y": 111000
+          }
+        ]
+      },
+      "zone_id": 152,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 52994,
+      "created_at": "2025-06-04T12:42:04.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "mvQ-KbeVSRq8GFSXAvaskw",
+      "updated_at": "2025-06-05T12:29:31.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 263275,
+            "y": 43750
+          },
+          {
+            "x": 263275,
+            "y": 91500
+          },
+          {
+            "x": 268859,
+            "y": 91500
+          },
+          {
+            "x": 268859,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 200,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 16461,
+      "created_at": "2025-09-16T15:19:11.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_30",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "pVm49CuIReame1CznIo6vg",
+      "updated_at": "2025-09-16T15:19:11.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 301000,
+            "y": 150500
+          },
+          {
+            "x": 311300,
+            "y": 150500
+          },
+          {
+            "x": 311300,
+            "y": 145000
+          },
+          {
+            "x": 301000,
+            "y": 145000
+          }
+        ]
+      },
+      "zone_id": 408,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 25506,
+      "created_at": "2025-06-03T19:34:57.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:47.556Z",
+            "x": 250483,
+            "y": 91482,
+            "z": 2413
+          },
+          "uid": "CFkl9G66ReiCAtJcSHThjQ"
+        }
+      ],
+      "uid": "HMJov9doSR2518YSqVdZMQ",
+      "updated_at": "2025-06-05T12:29:24.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 214500,
+            "y": 43500
+          },
+          {
+            "x": 214500,
+            "y": 91500
+          },
+          {
+            "x": 259000,
+            "y": 91500
+          },
+          {
+            "x": 259000,
+            "y": 43500
+          }
+        ]
+      },
+      "zone_id": 173,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 35862,
+      "created_at": "2025-09-16T19:47:56.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_14",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "yGFjEbj9SJSlLqICGDEsYw",
+      "updated_at": "2025-09-16T19:47:56.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 251000,
+            "y": 151000
+          },
+          {
+            "x": 255715,
+            "y": 151000
+          },
+          {
+            "x": 255715,
+            "y": 137037
+          },
+          {
+            "x": 251000,
+            "y": 137037
+          }
+        ]
+      },
+      "zone_id": 440,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 45374,
+      "created_at": "2024-05-30T17:26:44.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "t7nW-L1uQKqT-XNIMcbUJQ",
+      "updated_at": "2025-06-05T12:17:40.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 388835,
+            "y": 110420
+          },
+          {
+            "x": 388835,
+            "y": 142026
+          },
+          {
+            "x": 395076,
+            "y": 142026
+          },
+          {
+            "x": 395076,
+            "y": 110420
+          }
+        ]
+      },
+      "zone_id": 28,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 1341,
+      "created_at": "2025-09-16T20:22:39.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_B",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T14:56:04.439Z",
+            "x": 43996,
+            "y": 112767,
+            "z": 1117
+          },
+          "uid": "MNJ-20gIRZOeTBTKPBUhHg"
+        }
+      ],
+      "uid": "PepxKyqmTDqESQHCCFynpQ",
+      "updated_at": "2025-09-16T20:22:39.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 43238,
+            "y": 110855
+          },
+          {
+            "x": 43238,
+            "y": 116872
+          },
+          {
+            "x": 46371,
+            "y": 116872
+          },
+          {
+            "x": 46371,
+            "y": 110855
+          }
+        ]
+      },
+      "zone_id": 453,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 46542,
+      "created_at": "2025-09-16T15:36:15.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "dEMkNls3ToK2m_amDHnOAQ",
+      "updated_at": "2025-09-16T15:36:15.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 505750,
+            "y": 115500
+          },
+          {
+            "x": 505750,
+            "y": 140760
+          },
+          {
+            "x": 509743,
+            "y": 140760
+          },
+          {
+            "x": 509743,
+            "y": 115500
+          }
+        ]
+      },
+      "zone_id": 415,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 41277,
+      "created_at": "2025-06-04T20:17:39.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_18",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "-Tv_-6egTOGLvCIT4fKZzw",
+      "updated_at": "2025-06-04T20:17:39.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 386300,
+            "y": 157000
+          },
+          {
+            "x": 386300,
+            "y": 144200
+          },
+          {
+            "x": 381389,
+            "y": 144200
+          },
+          {
+            "x": 381389,
+            "y": 157000
+          }
+        ]
+      },
+      "zone_id": 345,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 9372,
+      "created_at": "2025-06-04T19:26:36.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_21",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:38:40.543Z",
+            "x": 521192,
+            "y": 110499,
+            "z": 1120
+          },
+          "uid": "fp8L-QqlReCTVDGDeRf2CQ"
+        }
+      ],
+      "uid": "BZQym9C3QKSYSYifCf0iig",
+      "updated_at": "2025-06-04T19:26:36.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 515200,
+            "y": 110500
+          },
+          {
+            "x": 521206,
+            "y": 110500
+          },
+          {
+            "x": 521206,
+            "y": 105000
+          },
+          {
+            "x": 515200,
+            "y": 105000
+          }
+        ]
+      },
+      "zone_id": 312,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 51228,
+      "created_at": "2025-06-04T18:54:45.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_07",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "L3ffizRVR6eKZmOwxXlB6w",
+      "updated_at": "2025-06-04T18:54:45.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 492000,
+            "y": 149464
+          },
+          {
+            "x": 492000,
+            "y": 145042
+          },
+          {
+            "x": 502000,
+            "y": 145021
+          },
+          {
+            "x": 502000,
+            "y": 137500
+          },
+          {
+            "x": 506000,
+            "y": 137500
+          },
+          {
+            "x": 506000,
+            "y": 149405
+          }
+        ]
+      },
+      "zone_id": 291,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 55451,
+      "created_at": "2025-06-03T20:26:59.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "emathvcGTcC2syPzWoQBTA",
+      "updated_at": "2025-06-03T20:26:59.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 126300,
+            "y": 15255
+          },
+          {
+            "x": 126300,
+            "y": 24600
+          },
+          {
+            "x": 130649,
+            "y": 24600
+          },
+          {
+            "x": 130649,
+            "y": 15255
+          }
+        ]
+      },
+      "zone_id": 188,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 63625,
+      "created_at": "2025-06-04T19:18:36.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_11",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "QAsZsmFLT9eDE2_xcUauNg",
+      "updated_at": "2025-06-05T12:19:16.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "N9KUCXGzQ620Qi-13FUlug"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 285625,
+            "y": 158602
+          },
+          {
+            "x": 285625,
+            "y": 151367
+          },
+          {
+            "x": 262978,
+            "y": 151367
+          },
+          {
+            "x": 262978,
+            "y": 158602
+          }
+        ]
+      },
+      "zone_id": 307,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 560,
+      "created_at": "2025-06-03T13:43:30.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_07",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "en54ch4GRHWkJ1re64_SDg",
+      "updated_at": "2025-06-03T14:03:01.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 291583,
+            "y": 34351
+          },
+          {
+            "x": 269833,
+            "y": 34351
+          },
+          {
+            "x": 269833,
+            "y": 142590
+          },
+          {
+            "x": 291583,
+            "y": 142590
+          }
+        ]
+      },
+      "zone_id": 80,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 44393,
+      "created_at": "2025-06-04T19:39:18.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_15",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:18:12.998Z",
+            "x": 455866,
+            "y": 150539,
+            "z": 1120
+          },
+          "uid": "DgMSFSCjS7GxIo9WQN564A"
+        }
+      ],
+      "uid": "5ity0aSCRle_sfhl5qRidg",
+      "updated_at": "2025-06-05T12:20:32.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 410216,
+            "y": 154298
+          },
+          {
+            "x": 508914,
+            "y": 154298
+          },
+          {
+            "x": 508914,
+            "y": 150055
+          },
+          {
+            "x": 410216,
+            "y": 150055
+          }
+        ]
+      },
+      "zone_id": 319,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 48278,
+      "created_at": "2025-09-16T19:21:41.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_31",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "W455tz8DS7WzRnUGVYwwIg",
+      "updated_at": "2025-09-16T19:21:41.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 300702,
+            "y": 160500
+          },
+          {
+            "x": 304336,
+            "y": 160500
+          },
+          {
+            "x": 304336,
+            "y": 148500
+          },
+          {
+            "x": 300702,
+            "y": 148500
+          }
+        ]
+      },
+      "zone_id": 429,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": false,
+      "apply_to": "LIST",
+      "crc16": 21905,
+      "created_at": "2025-05-06T18:43:31.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_22",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "oIADG20zQNmwbmOpXcOaKQ",
+      "updated_at": "2025-05-07T18:19:12.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 43705,
+            "y": 110656
+          },
+          {
+            "x": 43705,
+            "y": 117569
+          },
+          {
+            "x": 45623,
+            "y": 117569
+          },
+          {
+            "x": 45623,
+            "y": 110656
+          }
+        ]
+      },
+      "zone_id": 74,
+      "zone_mode": "DEACTIVATED",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 9925,
+      "created_at": "2025-09-16T20:26:31.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:49.014Z",
+            "x": 80115,
+            "y": 86760,
+            "z": 2413
+          },
+          "uid": "rNYJbdw_RjGllWmT0BFbVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:16:08.998Z",
+            "x": 22713,
+            "y": 103206,
+            "z": 2416
+          },
+          "uid": "J0y-JFFbQE6crWkeLkvpFw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:19:40.511Z",
+            "x": 36488,
+            "y": 17018,
+            "z": 2416
+          },
+          "uid": "k_iaixIXRFKI9jBa-Df-VA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:20:01.997Z",
+            "x": 55323,
+            "y": 103174,
+            "z": 2416
+          },
+          "uid": "QIIG1MFURDWQ05qk1JCLEg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:30:11.073Z",
+            "x": 40237,
+            "y": 103406,
+            "z": 2416
+          },
+          "uid": "QtqIw42HQImIdgjIzvtr8w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:31:00.528Z",
+            "x": 106378,
+            "y": 103147,
+            "z": 2416
+          },
+          "uid": "NEc-poJPRs6OvQSS1aWsLQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:33:41.529Z",
+            "x": 63872,
+            "y": 17026,
+            "z": 2416
+          },
+          "uid": "cYB_k2qJRbehdNM4NTBWsw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:05.103Z",
+            "x": 67351,
+            "y": 102709,
+            "z": 2413
+          },
+          "uid": "HvXvdhynT0GEuQgJsNliSg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:35:57.070Z",
+            "x": 8357,
+            "y": 103428,
+            "z": 2416
+          },
+          "uid": "UN-Dh3naRCmiU1pAAyNBCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:38.088Z",
+            "x": 37800,
+            "y": 17965,
+            "z": 2413
+          },
+          "uid": "jRJJGZxvQmyU_ucILurVvg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:36.571Z",
+            "x": 75016,
+            "y": 103265,
+            "z": 2416
+          },
+          "uid": "_mOCJO34Rzm_x6aCk2dWpw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:44.048Z",
+            "x": 60478,
+            "y": 103272,
+            "z": 2416
+          },
+          "uid": "Y_FMJToWTgineDmAopqWSA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:27.545Z",
+            "x": 42999,
+            "y": 17121,
+            "z": 2416
+          },
+          "uid": "2ECrr0x0RyiUI8dULDfyyA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:34.080Z",
+            "x": 29410,
+            "y": 17617,
+            "z": 2416
+          },
+          "uid": "hsLKQ6tQQGCTAw1txSFgIQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:39.548Z",
+            "x": 106047,
+            "y": 103335,
+            "z": 2416
+          },
+          "uid": "Yu_jfm9KS9C7_3OrVAlyCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:00.048Z",
+            "x": 29634,
+            "y": 17096,
+            "z": 2416
+          },
+          "uid": "AuRuAHRHRLejVC6ZAUzBCQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:00.094Z",
+            "x": 106976,
+            "y": 74634,
+            "z": 2413
+          },
+          "uid": "VYvmczCLSQSppdvpKrS1ng"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:10.556Z",
+            "x": 22509,
+            "y": 102763,
+            "z": 2416
+          },
+          "uid": "j1B62zWRSOe-zge7A0kAHA"
+        }
+      ],
+      "uid": "WqmRLUrtTmW5h4qUTbYmog",
+      "updated_at": "2025-09-16T20:26:31.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 4224,
+            "y": 17000
+          },
+          {
+            "x": 4224,
+            "y": 103500
+          },
+          {
+            "x": 126174,
+            "y": 103500
+          },
+          {
+            "x": 126174,
+            "y": 17000
+          }
+        ]
+      },
+      "zone_id": 454,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 20773,
+      "created_at": "2025-06-04T12:43:23.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_11",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "k87YqRIiQFmuGcwmA9ZDEA",
+      "updated_at": "2025-06-05T12:26:28.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 395634,
+            "y": 43750
+          },
+          {
+            "x": 395634,
+            "y": 133000
+          },
+          {
+            "x": 410465,
+            "y": 133000
+          },
+          {
+            "x": 410465,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 203,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 56959,
+      "created_at": "2025-06-04T13:25:03.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "6S-ujxEkSGOJQBCGwUp_eg",
+      "updated_at": "2025-06-04T13:25:03.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 213094,
+            "y": 36000
+          },
+          {
+            "x": 213094,
+            "y": 100000
+          },
+          {
+            "x": 395092,
+            "y": 100000
+          },
+          {
+            "x": 395092,
+            "y": 36000
+          }
+        ]
+      },
+      "zone_id": 221,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 37097,
+      "created_at": "2025-09-16T19:41:59.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:18.543Z",
+            "x": 256138,
+            "y": 135045,
+            "z": 2464
+          },
+          "uid": "VaWdq0-AQLewnwLYLYe32w"
+        }
+      ],
+      "uid": "67HsphfhQtykK_Qrjd9MhA",
+      "updated_at": "2025-09-16T19:41:59.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "N9KUCXGzQ620Qi-13FUlug",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 256000,
+            "y": 110000
+          },
+          {
+            "x": 256000,
+            "y": 159000
+          },
+          {
+            "x": 261166,
+            "y": 159000
+          },
+          {
+            "x": 261166,
+            "y": 110000
+          }
+        ]
+      },
+      "zone_id": 434,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 31413,
+      "created_at": "2025-09-16T15:39:33.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "6YTAuCjWS1Oin3WajNVilQ",
+      "updated_at": "2025-09-16T15:39:33.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 505600,
+            "y": 118097
+          },
+          {
+            "x": 501500,
+            "y": 118097
+          },
+          {
+            "x": 501500,
+            "y": 104694
+          },
+          {
+            "x": 512500,
+            "y": 104734
+          },
+          {
+            "x": 512500,
+            "y": 111000
+          },
+          {
+            "x": 505500,
+            "y": 111000
+          }
+        ]
+      },
+      "zone_id": 416,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 58643,
+      "created_at": "2025-06-04T19:59:59.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_19",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:03.073Z",
+            "x": 403652,
+            "y": 145413,
+            "z": 2416
+          },
+          "uid": "qLvf273uSR2bej6W5laM-w"
+        }
+      ],
+      "uid": "uBMXOgisTxyryXjqtlUC0g",
+      "updated_at": "2025-06-04T19:59:59.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 425500,
+            "y": 149400
+          },
+          {
+            "x": 425500,
+            "y": 144200
+          },
+          {
+            "x": 403500,
+            "y": 144200
+          },
+          {
+            "x": 403500,
+            "y": 149400
+          }
+        ]
+      },
+      "zone_id": 337,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 15890,
+      "created_at": "2025-06-04T12:45:34.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:18.047Z",
+            "x": 480283,
+            "y": 142177,
+            "z": 2416
+          },
+          "uid": "vk5AEh0KRPCo9yvo7nkTag"
+        }
+      ],
+      "uid": "jT4GBqemTZqCbTL7-dSDOA",
+      "updated_at": "2025-06-04T12:45:34.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 418000,
+            "y": 35000
+          },
+          {
+            "x": 418000,
+            "y": 142211
+          },
+          {
+            "x": 499155,
+            "y": 142211
+          },
+          {
+            "x": 499155,
+            "y": 35000
+          }
+        ]
+      },
+      "zone_id": 206,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 43929,
+      "created_at": "2024-05-30T17:27:09.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_07",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "TSojGYNFQPqAQsWPTi0XoA",
+      "updated_at": "2025-06-05T12:17:49.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 379960,
+            "y": 120154
+          },
+          {
+            "x": 379960,
+            "y": 142427
+          },
+          {
+            "x": 384139,
+            "y": 142427
+          },
+          {
+            "x": 384139,
+            "y": 120154
+          }
+        ]
+      },
+      "zone_id": 29,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 33486,
+      "created_at": "2025-06-04T19:43:40.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_14",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "GPVvI0p1Sh6qXZkYmuKCVQ",
+      "updated_at": "2025-06-05T12:20:26.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 506000,
+            "y": 143148
+          },
+          {
+            "x": 506000,
+            "y": 156557
+          },
+          {
+            "x": 534267,
+            "y": 156557
+          },
+          {
+            "x": 534267,
+            "y": 143148
+          }
+        ]
+      },
+      "zone_id": 322,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 19579,
+      "created_at": "2025-09-16T18:27:22.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:54.555Z",
+            "x": 205211,
+            "y": 20081,
+            "z": 2416
+          },
+          "uid": "hFF3zkIPQEOBk1UbJW_jLQ"
+        }
+      ],
+      "uid": "lFFGNJoFSmOYKELqEPUwMw",
+      "updated_at": "2025-09-16T18:27:22.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 199110,
+            "y": 18536
+          },
+          {
+            "x": 199110,
+            "y": 100843
+          },
+          {
+            "x": 213500,
+            "y": 100843
+          },
+          {
+            "x": 213500,
+            "y": 18536
+          }
+        ]
+      },
+      "zone_id": 421,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 47622,
+      "created_at": "2025-06-03T14:38:00.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:05.044Z",
+            "x": 149181,
+            "y": 87310,
+            "z": 2413
+          },
+          "uid": "WvmNkzf7Q_K406Cqv-yw0g"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:31.524Z",
+            "x": 167338,
+            "y": 20513,
+            "z": 2416
+          },
+          "uid": "gBpr424fRRm_n2uqhVHTLA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:33.094Z",
+            "x": 160786,
+            "y": 19122,
+            "z": 2416
+          },
+          "uid": "dGLkQYrHQkSuTNAQv_nYiw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:35.065Z",
+            "x": 149661,
+            "y": 100916,
+            "z": 2413
+          },
+          "uid": "94fAp7N-T6qHVgL7qBgPVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:29.552Z",
+            "x": 137980,
+            "y": 19660,
+            "z": 2416
+          },
+          "uid": "myPiHqYeQZWcchXbA3PckQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:57.578Z",
+            "x": 170786,
+            "y": 100325,
+            "z": 2413
+          },
+          "uid": "paLwKq3cT5OfjjSotDGUrA"
+        }
+      ],
+      "uid": "ijhNeNYgQsCnEZIKEdCkdg",
+      "updated_at": "2025-06-03T14:38:00.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 131720,
+            "y": 19000
+          },
+          {
+            "x": 131720,
+            "y": 101000
+          },
+          {
+            "x": 202000,
+            "y": 101000
+          },
+          {
+            "x": 202000,
+            "y": 19000
+          }
+        ]
+      },
+      "zone_id": 104,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 55679,
+      "created_at": "2025-06-03T13:46:52.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_10",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:55.053Z",
+            "x": 503696,
+            "y": 35146,
+            "z": 2416
+          },
+          "uid": "UwFkmA1SS36JGd4ynA_lVA"
+        }
+      ],
+      "uid": "tdmNyA7CRO27lZ2abyzypA",
+      "updated_at": "2025-06-03T14:02:28.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 515176,
+            "y": 34602
+          },
+          {
+            "x": 499332,
+            "y": 34602
+          },
+          {
+            "x": 499332,
+            "y": 99926
+          },
+          {
+            "x": 515176,
+            "y": 99926
+          }
+        ]
+      },
+      "zone_id": 83,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 24517,
+      "created_at": "2025-09-16T15:18:40.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_15",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "UI0gsGTpS0eg1MO4HYe1gA",
+      "updated_at": "2025-09-16T15:18:40.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 287360,
+            "y": 151000
+          },
+          {
+            "x": 287325,
+            "y": 144000
+          },
+          {
+            "x": 295134,
+            "y": 144000
+          },
+          {
+            "x": 295041,
+            "y": 136075
+          },
+          {
+            "x": 302211,
+            "y": 136238
+          },
+          {
+            "x": 302199,
+            "y": 151000
+          }
+        ]
+      },
+      "zone_id": 407,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 23197,
+      "created_at": "2025-06-04T14:45:04.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "xhvv97mBQJCdpH_b7Yz3lQ",
+      "updated_at": "2025-06-04T14:45:04.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 269404,
+            "y": 100806
+          },
+          {
+            "x": 269404,
+            "y": 140000
+          },
+          {
+            "x": 292555,
+            "y": 140000
+          },
+          {
+            "x": 292555,
+            "y": 100806
+          }
+        ]
+      },
+      "zone_id": 251,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 37134,
+      "created_at": "2025-09-16T20:27:02.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:33:47.538Z",
+            "x": 148237,
+            "y": 103457,
+            "z": 2416
+          },
+          "uid": "WvmNkzf7Q_K406Cqv-yw0g"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:27.551Z",
+            "x": 161002,
+            "y": 17107,
+            "z": 2416
+          },
+          "uid": "dGLkQYrHQkSuTNAQv_nYiw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:28.024Z",
+            "x": 167825,
+            "y": 17538,
+            "z": 2416
+          },
+          "uid": "gBpr424fRRm_n2uqhVHTLA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:31.541Z",
+            "x": 149986,
+            "y": 102544,
+            "z": 2416
+          },
+          "uid": "94fAp7N-T6qHVgL7qBgPVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:27.050Z",
+            "x": 138358,
+            "y": 18062,
+            "z": 2416
+          },
+          "uid": "myPiHqYeQZWcchXbA3PckQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:54.579Z",
+            "x": 170068,
+            "y": 103333,
+            "z": 2416
+          },
+          "uid": "paLwKq3cT5OfjjSotDGUrA"
+        }
+      ],
+      "uid": "5IQhpOn9QwixkKqYyHfvcQ",
+      "updated_at": "2025-09-16T20:27:02.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 130641,
+            "y": 17000
+          },
+          {
+            "x": 130641,
+            "y": 103500
+          },
+          {
+            "x": 202000,
+            "y": 103500
+          },
+          {
+            "x": 202000,
+            "y": 17000
+          }
+        ]
+      },
+      "zone_id": 455,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 9984,
+      "created_at": "2025-09-16T21:10:21.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_11",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:12.100Z",
+            "x": 220486,
+            "y": 17628,
+            "z": 2416
+          },
+          "uid": "ACZC-a5zSxCtQV2XcTjJxQ"
+        }
+      ],
+      "uid": "h0IqoQ6iTZukHZ_LdvhkJA",
+      "updated_at": "2025-09-16T21:10:21.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 224538,
+            "y": 17600
+          },
+          {
+            "x": 217100,
+            "y": 17600
+          },
+          {
+            "x": 217100,
+            "y": 32000
+          },
+          {
+            "x": 235500,
+            "y": 32000
+          },
+          {
+            "x": 235500,
+            "y": 25000
+          },
+          {
+            "x": 224538,
+            "y": 25000
+          }
+        ]
+      },
+      "zone_id": 460,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 40,
+      "created_at": "2025-06-03T20:22:05.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:11.578Z",
+            "x": 120233,
+            "y": 16805,
+            "z": 2416
+          },
+          "uid": "ni5pzczVTWCvaoRTaYb-HQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:15.088Z",
+            "x": 128436,
+            "y": 16987,
+            "z": 2413
+          },
+          "uid": "5iIOpvp8SX2GeNBxJDv6Mw"
+        }
+      ],
+      "uid": "YKB4xHigR1CG76AW1sdSWQ",
+      "updated_at": "2025-06-03T20:22:05.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 119000,
+            "y": 12000
+          },
+          {
+            "x": 119000,
+            "y": 17000
+          },
+          {
+            "x": 139000,
+            "y": 17000
+          },
+          {
+            "x": 139000,
+            "y": 12000
+          }
+        ]
+      },
+      "zone_id": 185,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 55918,
+      "created_at": "2025-06-04T15:08:13.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_14",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "vOE_bTRdR7Koxpu2kuMmDA",
+      "updated_at": "2025-06-05T12:26:07.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "zPuGFIVmT9_zVir6Eruxpg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 525523,
+            "y": 39500
+          },
+          {
+            "x": 521332,
+            "y": 39500
+          },
+          {
+            "x": 521332,
+            "y": 96000
+          },
+          {
+            "x": 525523,
+            "y": 96000
+          }
+        ]
+      },
+      "zone_id": 256,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 49752,
+      "created_at": "2025-06-04T19:23:34.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_12",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "qCAJ8TQ0RxydzGmXB6dafQ",
+      "updated_at": "2025-06-05T12:19:31.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "N9KUCXGzQ620Qi-13FUlug"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 329421,
+            "y": 110285
+          },
+          {
+            "x": 329421,
+            "y": 115604
+          },
+          {
+            "x": 364716,
+            "y": 115604
+          },
+          {
+            "x": 364716,
+            "y": 110285
+          }
+        ]
+      },
+      "zone_id": 310,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 7839,
+      "created_at": "2025-05-06T17:52:56.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T14:54:12.441Z",
+            "x": 184001,
+            "y": 10255,
+            "z": 2416
+          },
+          "uid": "FOsK7M39RJuE8feqLdcZBg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:55:18.438Z",
+            "x": 172366,
+            "y": 11252,
+            "z": 2416
+          },
+          "uid": "Wd5P-QyTSgSKJf3p6JfnCQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:23:14.008Z",
+            "x": 207464,
+            "y": 11481,
+            "z": 2416
+          },
+          "uid": "TLNiaRbwT6mJMstoOtHGXw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:35:01.032Z",
+            "x": 134880,
+            "y": 10972,
+            "z": 2416
+          },
+          "uid": "bbZe2rOtQY67DMAfc16fXw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:38:19.052Z",
+            "x": 3648,
+            "y": 11634,
+            "z": 1120
+          },
+          "uid": "wRu_iudDSSOIrtuwscGP2A"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:32.078Z",
+            "x": 101628,
+            "y": 10885,
+            "z": 1120
+          },
+          "uid": "B7sB0QRcQJu1qLZWs5M6sQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:33.088Z",
+            "x": 142061,
+            "y": 11578,
+            "z": 2464
+          },
+          "uid": "4SeEcSOGSU6QTJyJ1q3DIw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:50.093Z",
+            "x": 103002,
+            "y": 11488,
+            "z": 2416
+          },
+          "uid": "2Z8h3tJRQzqdtY22IUYlWQ"
+        }
+      ],
+      "uid": "fZNsqbEkQCSuMex3SLQhAw",
+      "updated_at": "2025-06-05T12:16:44.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 1389,
+            "y": 2654
+          },
+          {
+            "x": 1389,
+            "y": 11662
+          },
+          {
+            "x": 221616,
+            "y": 11662
+          },
+          {
+            "x": 221616,
+            "y": 2654
+          }
+        ]
+      },
+      "zone_id": 55,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 33169,
+      "created_at": "2025-09-16T18:28:14.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:54.555Z",
+            "x": 205211,
+            "y": 20081,
+            "z": 2416
+          },
+          "uid": "hFF3zkIPQEOBk1UbJW_jLQ"
+        }
+      ],
+      "uid": "s-ZxaA8hQE2qMC03oYGHeg",
+      "updated_at": "2025-09-16T18:28:14.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 202000,
+            "y": 17000
+          },
+          {
+            "x": 202000,
+            "y": 101000
+          },
+          {
+            "x": 217500,
+            "y": 101000
+          },
+          {
+            "x": 217500,
+            "y": 17000
+          }
+        ]
+      },
+      "zone_id": 423,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 40896,
+      "created_at": "2025-06-04T14:37:24.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "8OCdD-toQnma4BLKuvE7ZA",
+      "updated_at": "2025-06-04T14:37:24.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 5007,
+            "y": 19500
+          },
+          {
+            "x": 5007,
+            "y": 100000
+          },
+          {
+            "x": 125800,
+            "y": 100000
+          },
+          {
+            "x": 125800,
+            "y": 19500
+          }
+        ]
+      },
+      "zone_id": 246,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 37476,
+      "created_at": "2025-06-04T12:43:07.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:45.599Z",
+            "x": 338555,
+            "y": 90797,
+            "z": 2460
+          },
+          "uid": "XpVvBSH6Sv_i9itwgv20BQ"
+        }
+      ],
+      "uid": "t6jFg1SISi6h8U2nqMnnwg",
+      "updated_at": "2025-06-05T12:27:32.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 291719,
+            "y": 43750
+          },
+          {
+            "x": 291719,
+            "y": 91250
+          },
+          {
+            "x": 395140,
+            "y": 91250
+          },
+          {
+            "x": 395140,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 202,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 20077,
+      "created_at": "2025-09-16T15:49:44.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:35.057Z",
+            "x": 449115,
+            "y": 33658,
+            "z": 2464
+          },
+          "uid": "3B_ZDr69TLqH_0NF7bR4-Q"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:50.051Z",
+            "x": 452291,
+            "y": 141738,
+            "z": 2464
+          },
+          "uid": "7NM85xlQTpKDV1B38kRmwg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:51.080Z",
+            "x": 504115,
+            "y": 33125,
+            "z": 2416
+          },
+          "uid": "UwFkmA1SS36JGd4ynA_lVA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:10.588Z",
+            "x": 448687,
+            "y": 33566,
+            "z": 2464
+          },
+          "uid": "J0VUOzcLQcuaJYcE7HtT4w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:18.047Z",
+            "x": 480283,
+            "y": 142177,
+            "z": 2416
+          },
+          "uid": "vk5AEh0KRPCo9yvo7nkTag"
+        }
+      ],
+      "uid": "NFdkLIY7SOqOfBDM0o_Kpw",
+      "updated_at": "2025-09-16T15:49:44.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 418000,
+            "y": 33000
+          },
+          {
+            "x": 418000,
+            "y": 142313
+          },
+          {
+            "x": 521000,
+            "y": 142313
+          },
+          {
+            "x": 521000,
+            "y": 33000
+          }
+        ]
+      },
+      "zone_id": 418,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 13652,
+      "created_at": "2025-09-17T08:27:58.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_16",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "O2XGUhTMQ_2vlhqcYb2w4A",
+      "updated_at": "2025-09-17T08:27:58.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 309900,
+            "y": 110821
+          },
+          {
+            "x": 309900,
+            "y": 105000
+          },
+          {
+            "x": 296000,
+            "y": 105000
+          },
+          {
+            "x": 296000,
+            "y": 116750
+          },
+          {
+            "x": 303122,
+            "y": 116750
+          },
+          {
+            "x": 303122,
+            "y": 110743
+          }
+        ]
+      },
+      "zone_id": 463,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 51056,
+      "created_at": "2025-06-03T17:58:20.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_11",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "zZUgS957TeSNjoPgPFw-XA",
+      "updated_at": "2025-06-03T17:59:01.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 410714,
+            "y": 141425
+          },
+          {
+            "x": 410714,
+            "y": 34201
+          },
+          {
+            "x": 395329,
+            "y": 34201
+          },
+          {
+            "x": 395329,
+            "y": 141425
+          }
+        ]
+      },
+      "zone_id": 145,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 63784,
+      "created_at": "2024-05-30T17:25:44.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:14.555Z",
+            "x": 526674,
+            "y": 27344,
+            "z": 2416
+          },
+          "uid": "b7Yot7xZRbKG_FNzQpGRiA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:19.056Z",
+            "x": 526416,
+            "y": 26341,
+            "z": 2416
+          },
+          "uid": "yNxjyyLLTqWpBoULgqPFBg"
+        }
+      ],
+      "uid": "a5KvTDmJTHWLPvR_WP04iQ",
+      "updated_at": "2025-06-05T12:17:32.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 526379,
+            "y": 19948
+          },
+          {
+            "x": 526379,
+            "y": 31659
+          },
+          {
+            "x": 542652,
+            "y": 31659
+          },
+          {
+            "x": 542652,
+            "y": 19948
+          }
+        ]
+      },
+      "zone_id": 27,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 64191,
+      "created_at": "2025-06-04T20:27:28.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_17",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:26:34.022Z",
+            "x": 381839,
+            "y": 110362,
+            "z": 2416
+          },
+          "uid": "dMA-NQmzTOexSbr3GPpDbg"
+        }
+      ],
+      "uid": "YwpZyfLgTnaMF9tYZy11Pw",
+      "updated_at": "2025-06-04T20:27:28.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 377750,
+            "y": 110436
+          },
+          {
+            "x": 377750,
+            "y": 104141
+          },
+          {
+            "x": 388702,
+            "y": 104141
+          },
+          {
+            "x": 388719,
+            "y": 116400
+          },
+          {
+            "x": 384479,
+            "y": 116400
+          },
+          {
+            "x": 384314,
+            "y": 110436
+          }
+        ]
+      },
+      "zone_id": 352,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 32302,
+      "created_at": "2025-06-04T19:01:54.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:16.074Z",
+            "x": 229671,
+            "y": 108541,
+            "z": 2416
+          },
+          "uid": "W2b-QSJ3TpGe9Xi0l2Txcw"
+        }
+      ],
+      "uid": "bH1yFrleSye2l-CdPyx4tw",
+      "updated_at": "2025-06-05T12:18:26.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 51472,
+            "y": 108500
+          },
+          {
+            "x": 51472,
+            "y": 114000
+          },
+          {
+            "x": 240000,
+            "y": 114000
+          },
+          {
+            "x": 240000,
+            "y": 108500
+          }
+        ]
+      },
+      "zone_id": 296,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 47290,
+      "created_at": "2025-06-04T12:42:56.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_07",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "j97cff0_SH2kSRBRPl0J8w",
+      "updated_at": "2025-06-05T12:27:58.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 269336,
+            "y": 43750
+          },
+          {
+            "x": 269336,
+            "y": 133000
+          },
+          {
+            "x": 291533,
+            "y": 133000
+          },
+          {
+            "x": 291533,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 201,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 2082,
+      "created_at": "2025-06-04T17:25:48.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_20",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:46.047Z",
+            "x": 527259,
+            "y": 27072,
+            "z": 2416
+          },
+          "uid": "b7Yot7xZRbKG_FNzQpGRiA"
+        }
+      ],
+      "uid": "g2gZSmLrQCqembZknF1wsw",
+      "updated_at": "2025-06-04T17:25:48.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 518000,
+            "y": 26300
+          },
+          {
+            "x": 524000,
+            "y": 31500
+          },
+          {
+            "x": 528000,
+            "y": 27500
+          },
+          {
+            "x": 523000,
+            "y": 22000
+          }
+        ]
+      },
+      "zone_id": 265,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 48848,
+      "created_at": "2025-06-04T19:23:57.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "L9uX6ze0TAesjJKTr3R-Hg",
+      "updated_at": "2025-06-04T19:23:57.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 119000,
+            "y": 103822
+          },
+          {
+            "x": 119000,
+            "y": 108727
+          },
+          {
+            "x": 138500,
+            "y": 108727
+          },
+          {
+            "x": 138500,
+            "y": 103822
+          }
+        ]
+      },
+      "zone_id": 311,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 19940,
+      "created_at": "2025-09-16T19:48:29.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_A",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:08:00.464Z",
+            "x": 249986,
+            "y": 125492,
+            "z": 2240
+          },
+          "uid": "BN-BENS2RGKwjPyrudhKVw"
+        }
+      ],
+      "uid": "GE2vO0BmQkqSVvZ0CHMm0Q",
+      "updated_at": "2025-09-16T19:48:29.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 250500,
+            "y": 123636
+          },
+          {
+            "x": 246616,
+            "y": 123636
+          },
+          {
+            "x": 246616,
+            "y": 136016
+          },
+          {
+            "x": 250500,
+            "y": 136016
+          }
+        ]
+      },
+      "zone_id": 441,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 53357,
+      "created_at": "2025-06-04T19:14:52.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_10",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "2Yt3TqLDTZ6Q-r1rZAAQ_w",
+      "updated_at": "2025-06-04T19:14:52.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 126311,
+            "y": 105710
+          },
+          {
+            "x": 130649,
+            "y": 105710
+          },
+          {
+            "x": 130649,
+            "y": 96000
+          },
+          {
+            "x": 126311,
+            "y": 96000
+          }
+        ]
+      },
+      "zone_id": 305,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 13653,
+      "created_at": "2025-06-03T13:42:24.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "5x1YMz6dQZ_I62sd26mWTg",
+      "updated_at": "2025-06-03T14:03:10.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 263747,
+            "y": 34251
+          },
+          {
+            "x": 263747,
+            "y": 101119
+          },
+          {
+            "x": 269261,
+            "y": 101119
+          },
+          {
+            "x": 269261,
+            "y": 34251
+          }
+        ]
+      },
+      "zone_id": 79,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 51461,
+      "created_at": "2025-06-03T17:51:32.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_08",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:09.558Z",
+            "x": 386722,
+            "y": 98551,
+            "z": 2413
+          },
+          "uid": "m2hN4AIrQ6q5UqNn_nlsbg"
+        }
+      ],
+      "uid": "9sSYdG78T-KR0sdSaMK7hQ",
+      "updated_at": "2025-06-03T17:51:32.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 291947,
+            "y": 34531
+          },
+          {
+            "x": 291947,
+            "y": 100954
+          },
+          {
+            "x": 395000,
+            "y": 100954
+          },
+          {
+            "x": 395000,
+            "y": 34531
+          }
+        ]
+      },
+      "zone_id": 136,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 33545,
+      "created_at": "2025-09-16T19:32:48.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "1x-HTHHvRjW7qld8mzuNcg",
+      "updated_at": "2025-09-16T19:32:48.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 250000,
+            "y": 103500
+          },
+          {
+            "x": 250000,
+            "y": 110308
+          },
+          {
+            "x": 266941,
+            "y": 110308
+          },
+          {
+            "x": 266941,
+            "y": 103500
+          }
+        ]
+      },
+      "zone_id": 431,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 32524,
+      "created_at": "2024-05-30T18:00:05.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:24.556Z",
+            "x": 23975,
+            "y": 114463,
+            "z": 2413
+          },
+          "uid": "E34BzRFNSTqy_EkUFI7uOw"
+        }
+      ],
+      "uid": "HQ7EaY46RYqphwzEaLVN-Q",
+      "updated_at": "2025-06-03T14:03:47.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 7701,
+            "y": 114028
+          },
+          {
+            "x": 7701,
+            "y": 165445
+          },
+          {
+            "x": 42628,
+            "y": 165445
+          },
+          {
+            "x": 42628,
+            "y": 114028
+          }
+        ]
+      },
+      "zone_id": 42,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 62952,
+      "created_at": "2025-06-03T14:36:46.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_24",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "fe5PtP1nQkKlc1TXqDjp2w",
+      "updated_at": "2025-06-03T14:36:46.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "N9KUCXGzQ620Qi-13FUlug",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 411971,
+            "y": 26193
+          },
+          {
+            "x": 411971,
+            "y": 41750
+          },
+          {
+            "x": 416413,
+            "y": 41750
+          },
+          {
+            "x": 416413,
+            "y": 26193
+          }
+        ]
+      },
+      "zone_id": 101,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 55673,
+      "created_at": "2024-05-30T16:59:20.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "O9dg-VYqTc_SMFc470fb8Q",
+      "updated_at": "2025-06-03T20:10:44.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 263470,
+            "y": 34109
+          },
+          {
+            "x": 263470,
+            "y": 101156
+          },
+          {
+            "x": 269624,
+            "y": 101156
+          },
+          {
+            "x": 269624,
+            "y": 34109
+          }
+        ]
+      },
+      "zone_id": 7,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 5303,
+      "created_at": "2025-06-04T13:23:46.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "wiO1jfKyTbmZrR_UDNY58A",
+      "updated_at": "2025-06-04T13:23:46.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 499279,
+            "y": 36000
+          },
+          {
+            "x": 499279,
+            "y": 100125
+          },
+          {
+            "x": 515893,
+            "y": 100125
+          },
+          {
+            "x": 515893,
+            "y": 36000
+          }
+        ]
+      },
+      "zone_id": 218,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 14389,
+      "created_at": "2025-06-05T14:53:26.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_23",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "GZ63CJscS5ub_ZBBMBurlg",
+      "updated_at": "2025-06-05T14:53:26.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 403500,
+            "y": 26000
+          },
+          {
+            "x": 403500,
+            "y": 31500
+          },
+          {
+            "x": 424648,
+            "y": 31500
+          },
+          {
+            "x": 424648,
+            "y": 26000
+          }
+        ]
+      },
+      "zone_id": 405,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 23511,
+      "created_at": "2025-09-16T18:27:43.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:35.067Z",
+            "x": 249909,
+            "y": 100405,
+            "z": 2416
+          },
+          "uid": "CFkl9G66ReiCAtJcSHThjQ"
+        }
+      ],
+      "uid": "YQn1YNJHQ1G9paAsoC5fBQ",
+      "updated_at": "2025-09-16T18:27:43.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 213500,
+            "y": 34476
+          },
+          {
+            "x": 213500,
+            "y": 100994
+          },
+          {
+            "x": 259000,
+            "y": 100994
+          },
+          {
+            "x": 259000,
+            "y": 34476
+          }
+        ]
+      },
+      "zone_id": 422,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 8811,
+      "created_at": "2025-06-04T19:29:42.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_13",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "vA7NUR4aS66wPFIulxarpA",
+      "updated_at": "2025-06-05T12:19:48.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "N9KUCXGzQ620Qi-13FUlug"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 404000,
+            "y": 151622
+          },
+          {
+            "x": 404000,
+            "y": 149778
+          },
+          {
+            "x": 396138,
+            "y": 149778
+          },
+          {
+            "x": 396138,
+            "y": 151622
+          }
+        ]
+      },
+      "zone_id": 314,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 3259,
+      "created_at": "2025-06-03T15:41:32.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:49.014Z",
+            "x": 80115,
+            "y": 86760,
+            "z": 2413
+          },
+          "uid": "rNYJbdw_RjGllWmT0BFbVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:20:25.496Z",
+            "x": 54465,
+            "y": 77936,
+            "z": 2413
+          },
+          "uid": "QIIG1MFURDWQ05qk1JCLEg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:22:10.004Z",
+            "x": 38090,
+            "y": 25607,
+            "z": 2413
+          },
+          "uid": "k_iaixIXRFKI9jBa-Df-VA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:30:27.572Z",
+            "x": 41388,
+            "y": 93972,
+            "z": 2413
+          },
+          "uid": "QtqIw42HQImIdgjIzvtr8w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:31:20.035Z",
+            "x": 107063,
+            "y": 82497,
+            "z": 2413
+          },
+          "uid": "NEc-poJPRs6OvQSS1aWsLQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:33.088Z",
+            "x": 67999,
+            "y": 78163,
+            "z": 2413
+          },
+          "uid": "HvXvdhynT0GEuQgJsNliSg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:36:04.543Z",
+            "x": 9854,
+            "y": 93013,
+            "z": 2413
+          },
+          "uid": "UN-Dh3naRCmiU1pAAyNBCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:36:45.539Z",
+            "x": 60271,
+            "y": 25706,
+            "z": 2413
+          },
+          "uid": "cYB_k2qJRbehdNM4NTBWsw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:38:40.534Z",
+            "x": 38090,
+            "y": 25329,
+            "z": 2413
+          },
+          "uid": "jRJJGZxvQmyU_ucILurVvg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:01.549Z",
+            "x": 73982,
+            "y": 75315,
+            "z": 2413
+          },
+          "uid": "_mOCJO34Rzm_x6aCk2dWpw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:14.049Z",
+            "x": 60629,
+            "y": 93629,
+            "z": 2413
+          },
+          "uid": "Y_FMJToWTgineDmAopqWSA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:46.052Z",
+            "x": 46717,
+            "y": 41357,
+            "z": 2416
+          },
+          "uid": "2ECrr0x0RyiUI8dULDfyyA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:50.060Z",
+            "x": 30826,
+            "y": 26214,
+            "z": 2413
+          },
+          "uid": "hsLKQ6tQQGCTAw1txSFgIQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:59.059Z",
+            "x": 107180,
+            "y": 93551,
+            "z": 2413
+          },
+          "uid": "Yu_jfm9KS9C7_3OrVAlyCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:00.094Z",
+            "x": 106976,
+            "y": 74634,
+            "z": 2413
+          },
+          "uid": "VYvmczCLSQSppdvpKrS1ng"
+        }
+      ],
+      "uid": "RxRSvK00RJONOcq3YNzcRg",
+      "updated_at": "2025-06-05T12:29:02.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 4598,
+            "y": 25225
+          },
+          {
+            "x": 4598,
+            "y": 94000
+          },
+          {
+            "x": 125000,
+            "y": 94000
+          },
+          {
+            "x": 125000,
+            "y": 25225
+          }
+        ]
+      },
+      "zone_id": 135,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 60795,
+      "created_at": "2025-06-04T13:23:26.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "LQLJA6HLQySmSt05GsTC3A",
+      "updated_at": "2025-06-04T13:24:29.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 418000,
+            "y": 36000
+          },
+          {
+            "x": 418000,
+            "y": 140000
+          },
+          {
+            "x": 499006,
+            "y": 140000
+          },
+          {
+            "x": 499006,
+            "y": 36000
+          }
+        ]
+      },
+      "zone_id": 217,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 34366,
+      "created_at": "2025-06-04T19:48:22.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_03",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T11:10:57.884Z",
+            "x": 437327,
+            "y": 18882,
+            "z": 2235
+          },
+          "uid": "i53YUcSURaiyEd3ZAKC_kQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:45:11.925Z",
+            "x": 447294,
+            "y": 23246,
+            "z": 2416
+          },
+          "uid": "I9SGkbmIRsq6TyLUs-SqBA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:48:10.940Z",
+            "x": 404556,
+            "y": 23410,
+            "z": 2416
+          },
+          "uid": "wAswmKb5TJif7SCglIbPig"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:50:12.933Z",
+            "x": 400956,
+            "y": 23465,
+            "z": 2416
+          },
+          "uid": "OB2XW849QYW4KUmi0IlpgA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:53:19.936Z",
+            "x": 416776,
+            "y": 23720,
+            "z": 2416
+          },
+          "uid": "50W1m7y_TdK4buIka1KfKg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:53:32.432Z",
+            "x": 416928,
+            "y": 23584,
+            "z": 2416
+          },
+          "uid": "4l8iuSELRdyft7hMLx9rwA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:54:02.963Z",
+            "x": 450451,
+            "y": 23393,
+            "z": 1120
+          },
+          "uid": "BL_Iu9oZR8eP7LhUjWYLiw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:54:25.505Z",
+            "x": 402322,
+            "y": 23614,
+            "z": 2416
+          },
+          "uid": "CaYUaKwmRT_W77N0zrdP1A"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:57:36.958Z",
+            "x": 364005,
+            "y": 23991,
+            "z": 2416
+          },
+          "uid": "eBK35QW3TmqtFFI0c5qEjA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:58:04.468Z",
+            "x": 440025,
+            "y": 23675,
+            "z": 2416
+          },
+          "uid": "n2g-svfCTsuh1rJ4TYcF9g"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:58:18.956Z",
+            "x": 398752,
+            "y": 23898,
+            "z": 2416
+          },
+          "uid": "FAUqoEKaSF2Xmrz0cRm5zQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:59:07.951Z",
+            "x": 377256,
+            "y": 23250,
+            "z": 2416
+          },
+          "uid": "z1CjdrzdSLKjG1hVnUd5qw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:59:14.496Z",
+            "x": 414178,
+            "y": 23684,
+            "z": 2416
+          },
+          "uid": "6Kfm7Zc-T_WmaLdxY_J2GA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:59:28.933Z",
+            "x": 420099,
+            "y": 23691,
+            "z": 2416
+          },
+          "uid": "PJL6IlvNTg6kICKQJ7CllA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:59:39.475Z",
+            "x": 397660,
+            "y": 23693,
+            "z": 2416
+          },
+          "uid": "EMYPIKSQTp2ycuRuHPRTGg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T14:59:55.488Z",
+            "x": 404094,
+            "y": 23906,
+            "z": 2416
+          },
+          "uid": "nq_gUfVZSlykDPKs1vR5cg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:00:42.459Z",
+            "x": 364009,
+            "y": 23656,
+            "z": 2416
+          },
+          "uid": "jp7CP-J_SHqpKU1U8GzpRg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:00:48.444Z",
+            "x": 384799,
+            "y": 23894,
+            "z": 2416
+          },
+          "uid": "3_IoP597RTONKcp6tUzDLw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:03.976Z",
+            "x": 365006,
+            "y": 23641,
+            "z": 2416
+          },
+          "uid": "0jdYL96wRZGT4AEA9p0Dcw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:10.956Z",
+            "x": 397927,
+            "y": 23820,
+            "z": 2416
+          },
+          "uid": "vMY6p9oTQSedFgCvlUVu5g"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:42.009Z",
+            "x": 398944,
+            "y": 23691,
+            "z": 2416
+          },
+          "uid": "dCM9gIYDTIeKqFhAtdlM7w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:02:34.467Z",
+            "x": 402609,
+            "y": 23364,
+            "z": 2416
+          },
+          "uid": "jVlEHQKIQ2_nBIz7l_CkDA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:04:16.462Z",
+            "x": 364650,
+            "y": 23960,
+            "z": 2416
+          },
+          "uid": "Jk8AtV_QQ3Wa9VgFmNq-7A"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:04:23.969Z",
+            "x": 412370,
+            "y": 23799,
+            "z": 2416
+          },
+          "uid": "waCbjFkrRGaM3v4OWxJvMg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:04:41.491Z",
+            "x": 402934,
+            "y": 23352,
+            "z": 2416
+          },
+          "uid": "P0EQTmkaRIiniN_WbD4ceQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:05:15.953Z",
+            "x": 450055,
+            "y": 23895,
+            "z": 2416
+          },
+          "uid": "kJlxsAsxSPC4jvQjwBripA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:07:18.463Z",
+            "x": 396176,
+            "y": 17216,
+            "z": 2416
+          },
+          "uid": "q5Z_RY1-SRewk26pUBHWjw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:09:22.475Z",
+            "x": 383738,
+            "y": 17436,
+            "z": 2413
+          },
+          "uid": "Uoi5V4xSRfq4uwOUz68Nyw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:02.568Z",
+            "x": 392528,
+            "y": 4064,
+            "z": 2416
+          },
+          "uid": "gUk1X5YZRG_aprVSbvaJMw"
+        }
+      ],
+      "uid": "S8xx54cbQvSocWk6H73mUQ",
+      "updated_at": "2025-06-05T12:17:11.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 362525,
+            "y": 0
+          },
+          {
+            "x": 362525,
+            "y": 24000
+          },
+          {
+            "x": 478000,
+            "y": 24000
+          },
+          {
+            "x": 478000,
+            "y": 0
+          }
+        ]
+      },
+      "zone_id": 327,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 30434,
+      "created_at": "2025-09-16T15:36:10.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "RFqXhL_cQR_fBzZ56qzIwQ",
+      "updated_at": "2025-09-16T15:36:10.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 252000,
+            "y": 26640
+          },
+          {
+            "x": 252000,
+            "y": 32000
+          },
+          {
+            "x": 274500,
+            "y": 32000
+          },
+          {
+            "x": 274500,
+            "y": 26640
+          }
+        ]
+      },
+      "zone_id": 414,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 23865,
+      "created_at": "2025-09-16T19:32:29.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_12",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:14.051Z",
+            "x": 244957,
+            "y": 103535,
+            "z": 2416
+          },
+          "uid": "Zz9Y9FZ8QNK9yb9ofEvzOg"
+        }
+      ],
+      "uid": "qcT337PlQH_pToiNMapcVg",
+      "updated_at": "2025-09-16T19:32:29.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 241345,
+            "y": 103500
+          },
+          {
+            "x": 241169,
+            "y": 110205
+          },
+          {
+            "x": 249625,
+            "y": 110417
+          },
+          {
+            "x": 249625,
+            "y": 113250
+          },
+          {
+            "x": 253301,
+            "y": 113250
+          },
+          {
+            "x": 253329,
+            "y": 103500
+          }
+        ]
+      },
+      "zone_id": 430,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 60181,
+      "created_at": "2025-09-16T21:12:14.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_32",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "_5ZFf_2aQ5uaDboeu1BPaA",
+      "updated_at": "2025-09-16T21:12:14.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 213117,
+            "y": 27250
+          },
+          {
+            "x": 218736,
+            "y": 27250
+          },
+          {
+            "x": 218736,
+            "y": 20187
+          },
+          {
+            "x": 213117,
+            "y": 20187
+          }
+        ]
+      },
+      "zone_id": 462,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 41518,
+      "created_at": "2025-06-04T12:43:34.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_09",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:52.093Z",
+            "x": 447456,
+            "y": 51825,
+            "z": 2460
+          },
+          "uid": "3B_ZDr69TLqH_0NF7bR4-Q"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:11.551Z",
+            "x": 453120,
+            "y": 44101,
+            "z": 2460
+          },
+          "uid": "7NM85xlQTpKDV1B38kRmwg"
+        }
+      ],
+      "uid": "VqZdHh-cS-CV6VaCHAFrkA",
+      "updated_at": "2025-06-05T12:27:02.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 418000,
+            "y": 43750
+          },
+          {
+            "x": 418000,
+            "y": 133000
+          },
+          {
+            "x": 499198,
+            "y": 133000
+          },
+          {
+            "x": 499198,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 204,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 22564,
+      "created_at": "2025-06-03T15:30:35.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_06",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "E1aDbp0FSQCAbv6Cl-_COQ",
+      "updated_at": "2025-06-03T15:30:35.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 449500,
+            "y": 6687
+          },
+          {
+            "x": 449500,
+            "y": 10754
+          },
+          {
+            "x": 459000,
+            "y": 10754
+          },
+          {
+            "x": 459000,
+            "y": 6687
+          }
+        ]
+      },
+      "zone_id": 130,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 57572,
+      "created_at": "2025-06-04T15:12:11.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_11",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "2zW59LjDRyi475-SgpL3lQ",
+      "updated_at": "2025-06-05T12:23:17.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 521197,
+            "y": 101015
+          },
+          {
+            "x": 526347,
+            "y": 101015
+          },
+          {
+            "x": 526347,
+            "y": 35000
+          },
+          {
+            "x": 521197,
+            "y": 35000
+          }
+        ]
+      },
+      "zone_id": 257,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 43313,
+      "created_at": "2025-06-04T17:11:04.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_12",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T14:57:47.966Z",
+            "x": 491717,
+            "y": 24770,
+            "z": 2416
+          },
+          "uid": "25IgtenCQcu4HrFGcJmc7w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:37:45.072Z",
+            "x": 498087,
+            "y": 24573,
+            "z": 2464
+          },
+          "uid": "K0AUM4OzSMqdZuLMkaQesQ"
+        }
+      ],
+      "uid": "cR6k7WdcSNSeV0i1LGgtug",
+      "updated_at": "2025-06-04T17:11:04.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 476916,
+            "y": 120
+          },
+          {
+            "x": 476916,
+            "y": 24800
+          },
+          {
+            "x": 525712,
+            "y": 24800
+          },
+          {
+            "x": 525712,
+            "y": 120
+          }
+        ]
+      },
+      "zone_id": 260,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 26846,
+      "created_at": "2025-06-03T15:21:51.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_27",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "5TbpQzEvQDisI0Uq8p75vA",
+      "updated_at": "2025-06-03T15:21:51.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 428750,
+            "y": 6221
+          },
+          {
+            "x": 428750,
+            "y": 14137
+          },
+          {
+            "x": 423764,
+            "y": 14181
+          },
+          {
+            "x": 420221,
+            "y": 10861
+          },
+          {
+            "x": 418000,
+            "y": 10831
+          },
+          {
+            "x": 418000,
+            "y": 6221
+          }
+        ]
+      },
+      "zone_id": 128,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 52319,
+      "created_at": "2025-06-03T15:14:04.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_04",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:02.059Z",
+            "x": 204476,
+            "y": 28626,
+            "z": 2413
+          },
+          "uid": "hFF3zkIPQEOBk1UbJW_jLQ"
+        }
+      ],
+      "uid": "Y8Rj7PsNRNi1bYt3SEveAg",
+      "updated_at": "2025-06-03T19:33:04.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 202000,
+            "y": 27500
+          },
+          {
+            "x": 202000,
+            "y": 91500
+          },
+          {
+            "x": 214500,
+            "y": 91500
+          },
+          {
+            "x": 214500,
+            "y": 27500
+          }
+        ]
+      },
+      "zone_id": 124,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 56319,
+      "created_at": "2025-06-03T18:24:42.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:09.621Z",
+            "x": 24567,
+            "y": 121319,
+            "z": 2413
+          },
+          "uid": "E34BzRFNSTqy_EkUFI7uOw"
+        }
+      ],
+      "uid": "zm7Tu2uVT_mYH993XmcDxA",
+      "updated_at": "2025-06-05T12:28:51.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 7987,
+            "y": 121000
+          },
+          {
+            "x": 7987,
+            "y": 158500
+          },
+          {
+            "x": 42341,
+            "y": 158500
+          },
+          {
+            "x": 42341,
+            "y": 121000
+          }
+        ]
+      },
+      "zone_id": 151,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 55676,
+      "created_at": "2025-06-04T20:04:50.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_29",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:14.061Z",
+            "x": 411711,
+            "y": 145579,
+            "z": 2416
+          },
+          "uid": "qLvf273uSR2bej6W5laM-w"
+        }
+      ],
+      "uid": "DLx33vPcQfe59UI0LX4scA",
+      "updated_at": "2025-06-04T20:04:50.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 411616,
+            "y": 148052
+          },
+          {
+            "x": 417000,
+            "y": 148052
+          },
+          {
+            "x": 417000,
+            "y": 137000
+          },
+          {
+            "x": 411616,
+            "y": 137000
+          }
+        ]
+      },
+      "zone_id": 339,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 40937,
+      "created_at": "2025-06-04T13:26:01.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "KOZ_01",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "egsw6Q9JRGu9oVtV7P9u-w",
+      "updated_at": "2025-06-04T13:26:01.000Z",
+      "user_params": {},
+      "zone_alarm_level": 1,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 8003,
+            "y": 114000
+          },
+          {
+            "x": 8003,
+            "y": 165000
+          },
+          {
+            "x": 42865,
+            "y": 165000
+          },
+          {
+            "x": 42865,
+            "y": 114000
+          }
+        ]
+      },
+      "zone_id": 223,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Keep Out",
+        "id": 2,
+        "name": "keep_out"
+      },
+      "zone_type_id": 2,
+      "zone_type_name": "keep_out"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 58751,
+      "created_at": "2025-09-16T15:49:01.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "ERZ_10",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:59.576Z",
+            "x": 502682,
+            "y": 44506,
+            "z": 2413
+          },
+          "uid": "UwFkmA1SS36JGd4ynA_lVA"
+        }
+      ],
+      "uid": "xJWxMWc2T6uH7V-svXbhhw",
+      "updated_at": "2025-09-16T15:49:01.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ",
+        "m69jwb2CS0mVuLeJlaFOvg"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 499500,
+            "y": 43750
+          },
+          {
+            "x": 499500,
+            "y": 90250
+          },
+          {
+            "x": 521000,
+            "y": 90250
+          },
+          {
+            "x": 521000,
+            "y": 43750
+          }
+        ]
+      },
+      "zone_id": 417,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Exit restriction zone",
+        "id": 28,
+        "name": "exit_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "exit_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 37497,
+      "created_at": "2025-09-16T19:42:39.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_16",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "bCRecDRRR2iP7tYKl9SyxA",
+      "updated_at": "2025-09-16T19:42:39.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 255738,
+            "y": 116000
+          },
+          {
+            "x": 255738,
+            "y": 103500
+          },
+          {
+            "x": 249500,
+            "y": 103500
+          },
+          {
+            "x": 249500,
+            "y": 116000
+          }
+        ]
+      },
+      "zone_id": 435,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 59781,
+      "created_at": "2025-06-03T14:23:45.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "WGZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:01:49.014Z",
+            "x": 80115,
+            "y": 86760,
+            "z": 2413
+          },
+          "uid": "rNYJbdw_RjGllWmT0BFbVQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:16:43.994Z",
+            "x": 21684,
+            "y": 98801,
+            "z": 2413
+          },
+          "uid": "J0y-JFFbQE6crWkeLkvpFw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:19:43.998Z",
+            "x": 37575,
+            "y": 19080,
+            "z": 2416
+          },
+          "uid": "k_iaixIXRFKI9jBa-Df-VA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:20:06.020Z",
+            "x": 54993,
+            "y": 100975,
+            "z": 2413
+          },
+          "uid": "QIIG1MFURDWQ05qk1JCLEg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:30:15.573Z",
+            "x": 41139,
+            "y": 100856,
+            "z": 2416
+          },
+          "uid": "QtqIw42HQImIdgjIzvtr8w"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:31:20.035Z",
+            "x": 107063,
+            "y": 82497,
+            "z": 2413
+          },
+          "uid": "NEc-poJPRs6OvQSS1aWsLQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:33:46.034Z",
+            "x": 63810,
+            "y": 19057,
+            "z": 2416
+          },
+          "uid": "cYB_k2qJRbehdNM4NTBWsw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:34:09.528Z",
+            "x": 67618,
+            "y": 100735,
+            "z": 2416
+          },
+          "uid": "HvXvdhynT0GEuQgJsNliSg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:36:00.543Z",
+            "x": 9191,
+            "y": 100788,
+            "z": 2416
+          },
+          "uid": "UN-Dh3naRCmiU1pAAyNBCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:38:03.035Z",
+            "x": 36564,
+            "y": 19837,
+            "z": 2416
+          },
+          "uid": "jRJJGZxvQmyU_ucILurVvg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:42.106Z",
+            "x": 74397,
+            "y": 100852,
+            "z": 2413
+          },
+          "uid": "_mOCJO34Rzm_x6aCk2dWpw"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:49.055Z",
+            "x": 60784,
+            "y": 100400,
+            "z": 2416
+          },
+          "uid": "Y_FMJToWTgineDmAopqWSA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:36.052Z",
+            "x": 43913,
+            "y": 20727,
+            "z": 2413
+          },
+          "uid": "2ECrr0x0RyiUI8dULDfyyA"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:36.564Z",
+            "x": 29875,
+            "y": 19064,
+            "z": 2416
+          },
+          "uid": "hsLKQ6tQQGCTAw1txSFgIQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:40:45.552Z",
+            "x": 107169,
+            "y": 100174,
+            "z": 2413
+          },
+          "uid": "Yu_jfm9KS9C7_3OrVAlyCg"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:00.094Z",
+            "x": 106976,
+            "y": 74634,
+            "z": 2413
+          },
+          "uid": "VYvmczCLSQSppdvpKrS1ng"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:05.551Z",
+            "x": 30176,
+            "y": 19166,
+            "z": 2416
+          },
+          "uid": "AuRuAHRHRLejVC6ZAUzBCQ"
+        },
+        {
+          "entered": {
+            "time": "2025-09-19T15:41:14.551Z",
+            "x": 21819,
+            "y": 100623,
+            "z": 2413
+          },
+          "uid": "j1B62zWRSOe-zge7A0kAHA"
+        }
+      ],
+      "uid": "U8LKYfxcRU6CvGslE-uhdQ",
+      "updated_at": "2025-06-03T14:23:45.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": ["N9KUCXGzQ620Qi-13FUlug"],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 4723,
+            "y": 19000
+          },
+          {
+            "x": 4723,
+            "y": 101030
+          },
+          {
+            "x": 125500,
+            "y": 101030
+          },
+          {
+            "x": 125500,
+            "y": 19000
+          }
+        ]
+      },
+      "zone_id": 90,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Wire guidance required zone",
+        "id": 26,
+        "name": "wire_required"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "wire_required"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 30995,
+      "created_at": "2025-09-16T19:54:15.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SLZ_13",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "11La0dEOTEOcLjOBc1V_-g",
+      "updated_at": "2025-09-16T19:54:15.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 251000,
+            "y": 125750
+          },
+          {
+            "x": 255500,
+            "y": 125750
+          },
+          {
+            "x": 255500,
+            "y": 113600
+          },
+          {
+            "x": 251000,
+            "y": 113600
+          }
+        ]
+      },
+      "zone_id": 443,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Slow zone",
+        "id": 23,
+        "name": "slow_zone"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "slow_zone"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 31525,
+      "created_at": "2024-05-30T17:21:50.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "SRZ_02",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "n8ARROI2SeKb9EpJcrO5Zw",
+      "updated_at": "2025-06-05T12:16:52.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "m69jwb2CS0mVuLeJlaFOvg",
+        "h_ckHT2RS8aV2_0i3N2Yow",
+        "zPuGFIVmT9_zVir6Eruxpg",
+        "5-SeZAuHRXKUPHQRqCcplQ"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 352963,
+            "y": 1345
+          },
+          {
+            "x": 352963,
+            "y": 26424
+          },
+          {
+            "x": 362582,
+            "y": 26424
+          },
+          {
+            "x": 362582,
+            "y": 1345
+          }
+        ]
+      },
+      "zone_id": 23,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Speed restriction zone",
+        "id": 29,
+        "name": "speed_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "speed_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 63688,
+      "created_at": "2025-06-04T14:20:06.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_10",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [],
+      "uid": "clYEsen4RCabq0cmdjpRiA",
+      "updated_at": "2025-06-05T12:23:32.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 395000,
+            "y": 33000
+          },
+          {
+            "x": 395000,
+            "y": 140500
+          },
+          {
+            "x": 412000,
+            "y": 140500
+          },
+          {
+            "x": 412000,
+            "y": 33000
+          }
+        ]
+      },
+      "zone_id": 237,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    },
+    {
+      "active": true,
+      "apply_to": "LIST",
+      "crc16": 47328,
+      "created_at": "2025-06-03T19:24:02.000Z",
+      "custom_info": "",
+      "default_allowed": true,
+      "depth": null,
+      "dynamic": false,
+      "location_uid": "lhIZxHtRQimH22TP-J6V-Q",
+      "name": "HRZ_05",
+      "priority": 0,
+      "project_uid": "Wq4j5Rw_RIqPOkqFBv7oUA",
+      "removed_at": "9999-12-31T23:59:59.000Z",
+      "schedule": {
+        "start_time": "00 00 * * *",
+        "stop_time": "00 24 * * *"
+      },
+      "shape": "polygon",
+      "sublocation_id": 1,
+      "sublocation_uid": "7WaetEwCQ1ymBtuozt3seQ",
+      "trackable_object_uid": null,
+      "trackables_in_zone": [
+        {
+          "entered": {
+            "time": "2025-09-19T15:39:35.067Z",
+            "x": 249909,
+            "y": 100405,
+            "z": 2416
+          },
+          "uid": "CFkl9G66ReiCAtJcSHThjQ"
+        }
+      ],
+      "uid": "8eA28Q7bQKGlQbe3mpL3FA",
+      "updated_at": "2025-06-03T19:24:02.000Z",
+      "user_params": {},
+      "zone_alarm_level": 0,
+      "zone_exceptions": [],
+      "zone_exceptions_groups": [
+        "N9KUCXGzQ620Qi-13FUlug",
+        "h_ckHT2RS8aV2_0i3N2Yow"
+      ],
+      "zone_geometry": {
+        "positions": [
+          {
+            "x": 214500,
+            "y": 34149
+          },
+          {
+            "x": 214500,
+            "y": 101115
+          },
+          {
+            "x": 259000,
+            "y": 101115
+          },
+          {
+            "x": 259000,
+            "y": 34149
+          }
+        ]
+      },
+      "zone_id": 166,
+      "zone_mode": "ALWAYS_ACTIVE",
+      "zone_type": {
+        "display_name": "Height restriction zone",
+        "id": 27,
+        "name": "height_restriction"
+      },
+      "zone_type_id": 1,
+      "zone_type_name": "height_restriction"
+    }
+  ]
+}
